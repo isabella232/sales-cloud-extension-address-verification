@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  labels:
+    app: c4c-address-verification
+  name: c4c-address-verification-secret
+type: Opaque
+data:
+  # base64 encoded Google API Key
+  GOOGLE_API_KEY: QUl6YVN5QUhXd0RaQUlxZUtKSEoxOGVUa29KQVRPME5oZS1wTkNN
+
+
+
