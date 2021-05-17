@@ -7,7 +7,7 @@ metadata:
 type: Opaque
 data:
   # base64 encoded Google API Key
-  GOOGLE_API_KEY: QUl6YVN5QUhXd0RaQUlxZUtKSEoxOGVUa29KQVRPME5oZS1wTkNN
+  GOOGLE_API_KEY: <Base64 Encoded Google Key>
 
 
 
