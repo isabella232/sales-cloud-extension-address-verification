@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sales-cloud-extension-address-verification)](https://api.reuse.software/info/github.com/SAP-samples/extension-sales-cloud-address-verification)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sales-cloud-extension-address-verification)](https://api.reuse.software/info/github.com/SAP-samples/sales-cloud-extension-address-verification)
 
 # SAP Sales Cloud Extension - Account address verification
 Welcome to the SAP Business Technology Platform "SAP Sales Cloud Extension" use case PoC.
