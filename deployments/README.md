@@ -9,7 +9,7 @@
 ## Preparation
 
 For deployment K8S manifest files can be found from the
-[repo](https://github.com/SAP-samples/sales-cloud-extension-address-verification/tree/main/deployment).
+[repo](https://github.com/SAP-samples/sales-cloud-extension-address-verification/tree/main/deployments).
 
 Clone the repository:
 ```sh
@@ -20,7 +20,8 @@ cd sales-cloud-extension-address-verification
 
 Apply Secrets for Docker Images Repo, will be used to get the images of use case modules.
 ```sh
-kubect apply -n default -f ./prep/
+cd deployments
+kubectl apply -n default -f ./prep/
 ```
 
 ## Google Maps API Key
@@ -49,5 +50,5 @@ data:
 Install Kyma Lambda Function as service.
 
 ```sh
-kubect apply -n default -f ./
+kubectl apply -n default -f ./
 ```
